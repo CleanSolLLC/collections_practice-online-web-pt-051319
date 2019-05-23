@@ -41,7 +41,7 @@ end
 
 def sum_array(num)
   num.each do |x|
-    x+=x
+    total+=x
     binding.pry
 end
 end
