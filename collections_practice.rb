@@ -52,7 +52,7 @@ end
 def add_s(string_array)
   new_array =[]
   ["hand","feet", "knee", "table"].each_with_index.collect do |element, index|
-     puts "#{element} #{index}"
+    element << "s" if index != 0
      binding.pry
    end
 
