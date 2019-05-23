@@ -39,14 +39,11 @@ def find_a(string_array)
   chars_contain_a
 end
 
-#def sum_array(num)
-#  total = 0
-#  num.each do |x|
-#    total+=x
-#end
-#total
-#end
-
 def sum_array(num)
-  num.sum
+  total = 0
+  num.each {|x| total+=x total}
 end
+
+#def sum_array(num)
+#  num.sum
+#end
