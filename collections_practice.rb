@@ -31,7 +31,7 @@ end
 
 def find_a(string_array)
   chars_contain_a = []
-  string_array.to_s.start_with?("apple")
+  string_array.to_s.start_with?(/a/)
     binding.pry
   #string_array.any?("a")
 end
