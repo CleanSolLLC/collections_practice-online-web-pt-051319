@@ -45,4 +45,5 @@ def sum_array(num)
     total+=x
     binding.pry
 end
+total
 end
