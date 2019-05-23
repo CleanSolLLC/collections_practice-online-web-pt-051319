@@ -41,4 +41,5 @@ end
 
 def sum_array(num)
   num.collect {|x| x+=x}
+  binding.pry
 end
