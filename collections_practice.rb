@@ -32,7 +32,9 @@ end
 def find_a(string_array)
   chars_contain_a = []
   string_array.each do |name|
-    name.to_s.start_with?("a")
-    binding.pry
+    if name.to_s.start_with?("a")
+      chars_contain_a << name
+    end
   end
+  chars_contain_a
 end
