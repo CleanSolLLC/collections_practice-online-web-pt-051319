@@ -48,3 +48,9 @@ end
 #def sum_array(num)
 #  num.sum
 #end
+
+def add_s(string_array)
+  new_array =[]
+  string_array.each_with_index.collect{|element, index| }
+  binding.pry
+end
