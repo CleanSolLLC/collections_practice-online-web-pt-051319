@@ -40,8 +40,8 @@ def find_a(string_array)
 end
 
 def sum_array(num)
-  num.each do |x|
-    sum = (x+=x)
+  num.collect do |x|
+    sum+=x
     binding.pry
 end
 end
