@@ -33,8 +33,8 @@ describe 'collections practice' do
   # Question 4 **Advanced:**
   describe '#swap_elements_from_to' do
     it 'swap the second and third elements of an array using index and destination index parameters' do
-      expect(swap_elements(["blake", "ashley", "scott"], 0, 2)).to eq(["scott", "ashley", "blake"])
-      expect(swap_elements(["blake", "ashley", "scott"], 2, 1)).to eq(["blake", "scott", "ashley"])
+      expect(swap_elements_from_to(["blake", "ashley", "scott"], 0, 2)).to eq(["scott", "ashley", "blake"])
+      expect(swap_elements_from_to(["blake", "ashley", "scott"], 2, 1)).to eq(["blake", "scott", "ashley"])
     end
   end
 
