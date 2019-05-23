@@ -58,3 +58,9 @@ def add_s(string_array)
    end
   end
  end
+
+ def swap_elements_from_to(array, index, destination_index)
+   array.collect {|name| name, name[destination_index], name[index]}
+ end
+
+   
