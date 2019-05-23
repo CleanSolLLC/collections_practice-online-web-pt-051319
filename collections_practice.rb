@@ -55,6 +55,5 @@ def add_s(string_array)
      puts "#{element} #{index}"
      binding.pry
    end
-  
-end
 
+end
