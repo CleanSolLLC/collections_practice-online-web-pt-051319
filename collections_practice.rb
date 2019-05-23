@@ -42,6 +42,5 @@ end
 def sum_array(num)
   num.collect do |x|
     x+=x
-  binding.pry
 end
 end
