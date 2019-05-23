@@ -50,8 +50,7 @@ end
 #end
 
 def add_s(string_array)
-  new_array =[]
-  ["hand","feet", "knee", "table"].each_with_index.collect do |element, index|
+  string_array.each_with_index.collect do |element, index|
     element << "s" if index != 1
    end
 end
