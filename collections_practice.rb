@@ -31,6 +31,8 @@ end
 
 def find_a(string_array)
   chars_contain_a = []
-  string_array.any?("a")
-binding.pry
+  string_array.each.to_s do
+  #string_array.any?("a")
+  binding.pry
+  end
 end
