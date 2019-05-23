@@ -41,7 +41,7 @@ end
 
 def sum_array(num)
   total = 0
-  num.collect {|x| total+=x}
+  num.each {|x| total+=x}
 end
 
 #def sum_array(num)
