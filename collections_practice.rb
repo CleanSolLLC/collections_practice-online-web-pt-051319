@@ -48,6 +48,5 @@ end
 #end
 
 def sum_array(num)
-  total = 0
-  num.collect {|x| total+=x}
+  num.sum
 end
