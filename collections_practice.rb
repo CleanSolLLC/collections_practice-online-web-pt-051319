@@ -41,6 +41,6 @@ end
 
 def sum_array(num)
   num.collect do |x|
-    x+=x
+    total +=x
 end
 end
