@@ -43,7 +43,6 @@ def sum_array(num)
   total = 0
   num.each do |x|
     total+=x
-    binding.pry
 end
 total
 end
