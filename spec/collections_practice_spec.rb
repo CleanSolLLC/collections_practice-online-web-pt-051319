@@ -30,13 +30,7 @@ describe 'collections practice' do
     end
   end
 
-  # Question 4 **Advanced:**
-  describe '#swap_elements_from_to' do
-    it 'swap the second and third elements of an array using index and destination index parameters' do
-      expect(swap_elements_from_to(["blake", "ashley", "scott"],index = 0, destination_index = 2)).to eq(["scott", "ashley", "blake"])
-      expect(swap_elements_from_to(["blake", "ashley", "scott"],index = 2, destination_index = 1)).to eq(["blake", "scott", "ashley"])
-    end
-  end
+
 
   # Question 5
   describe '#reverse_array' do
