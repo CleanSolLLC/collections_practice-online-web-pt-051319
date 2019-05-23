@@ -40,11 +40,5 @@ def find_a(string_array)
 end
 
 def sum_array(num)
-  chars_contain_a = []
-  string_array.each do |name|
-    if name.to_s.start_with?("a")
-      chars_contain_a << name
-    end
-  end
-  chars_contain_a
+  num.collect {|num| num += num}
 end
