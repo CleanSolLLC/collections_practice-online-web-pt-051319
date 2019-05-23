@@ -51,6 +51,6 @@ end
 
 def add_s(string_array)
   new_array =[]
-  string_array.each_with_index.collect{|element, index| }
+  string_array.each_with_index.collect{|element, index| puts "#{element}" puts "#{index}"}
   binding.pry
 end
